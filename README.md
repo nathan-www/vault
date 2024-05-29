@@ -20,7 +20,7 @@ Data added to the vault is encrypted using a hybrid AES-RSA system:
 *It is the user's responsibility to properly store and back-up the private key shares, public key, and any encrypted data*
 
 ### Vault CLI features
-**Create new vault** - Creates a new vault with the desired number of shares and threshold. Will return a list of private key shares, and the vault's public RSA key.
+**Create new vault** - Creates a new vault (generates new 4096-bit RSA keypair, and splits into desired number of shares). Will return a list of private key shares, and the vault's public RSA key.
 
 **Encrypt data** - Encrypts text data using the supplied vault's RSA public key.
 
