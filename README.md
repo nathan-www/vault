@@ -1,5 +1,7 @@
 # Vault 1.0.0
 
+> NOTE: This project is in BETA. It has not been security audited and may contain bugs or vulnerabilities. 
+
 Vault is a CLI tool for securely encrypting and decrypting sensitive text data (such as passwords, crypto keys, recovery phrases and backup codes). It is intended for protecting this data while in long-term storage.
 
 The tool utilises Shamir's Secret Sharing algorithm to split a 4096-bit RSA Private key into multiple 'shares'. 
